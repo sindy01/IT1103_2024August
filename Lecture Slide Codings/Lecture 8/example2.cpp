@@ -8,13 +8,13 @@ void printArray(int arr[][4], int row, int col);
 
 int main() 
 {
-    const int row = 3;
-    const int col = 4;
-    int arr[row][col] = {{1, 2, 3, 4},{5, 6, 7, 8},{9, 10, 11, 12}};
+    const int r = 3;
+    const int c = 4;
+    int array[r][c] = {{1, 2, 3, 4},{5, 6, 7, 8},{9, 10, 11, 12}};
 
     // Printing the original array
     cout << "Original array:" << endl;
-    printArray(arr, row, col);
+    printArray(array, r, c);
 
     return 0;
 }
