@@ -26,8 +26,8 @@ int main()
     cout << "\nTotal marks = " << totalMarks << endl;
 
     // Find the highest mark and print
-    int highestMark = INT_MIN;
-    for (int i = 0; i < numStudents; ++i) 
+    int highestMark = marks[0];
+    for (int i = 1; i < numStudents; ++i)
 	{
         if (marks[i] > highestMark) 
 		{
@@ -38,7 +38,7 @@ int main()
 
     // Find the Minimum mark and print
     int minimumMark = marks[0];
-    for (int i = 0; i < numStudents; ++i) 
+    for (int i = 1; i < numStudents; ++i)
 	{
         if (marks[i] < minimumMark) 
 		{
